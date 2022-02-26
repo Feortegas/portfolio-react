@@ -18,9 +18,6 @@ function Nav() {
                     <li className="nav-item">
                         <span className="nav-link" href="/contact">Contact</span>
                     </li>
-                    <li className="nav-item">
-                        <span className="nav-link" href="/contact">Resume</span>
-                    </li>
                 </ul>
             </div>
         </nav>
