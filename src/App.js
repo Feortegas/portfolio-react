@@ -2,16 +2,20 @@ import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
 	return (
 		<div>
-			<Nav></Nav>
+			<Nav />
 			<main>
-				<About></About>
+				<About />
+				<Skills />
+				<Projects />
 			</main>
 			<footer>
-				<Footer></Footer>
+				<Footer />
 			</footer>
 		</div>
 	);

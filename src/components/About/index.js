@@ -9,7 +9,7 @@ function About() {
 					src={profileImage}
 					className='rounded-circle mx-auto'
 					alt='this is me'
-					style={{ height: 400, width: 400 }}
+					style={{ height: 300, width: 300 }}
 				/>
 			</div>
 			<div className='d-flex justify-content-center m-4'>
