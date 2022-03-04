@@ -1,6 +1,44 @@
 * {
-  background-color: #1e2124;
-  color: #92cccd;
-  text-decoration: none;
+	background-color: #1e2124;
+	/* color: #92cccd; */
+  color: white;
+	/* text-decoration: none; */
 }
 
+/* .profile-blob {
+	width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  z-index: 1;
+}
+
+.profile-image {
+	width: 200px;
+  position: absolute;
+  top: 280px;
+  left: 160px;
+	z-index: 2;
+} */
+
+.profile-image {
+  max-width: 100%;
+}
+
+.profile-text {
+  text-align: center;
+  align-items: center;
+  
+}
+
+.section-break {
+  margin-top: 100px;
+}
+
+.icons {
+  color: #00cba9;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+}
