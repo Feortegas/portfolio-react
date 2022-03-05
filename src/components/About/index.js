@@ -17,28 +17,30 @@ function About(props) {
 		<section className='pt-5 container-fluid'>
 			<div className='row'>
 				<div className='col-8 mt-2 '>
+					{/* About me section */}
 					<p className='profile-text'>
-						Hello, I'm Fernando
+						Hello, I'm <span className='my-name'>Fernando</span>
 						<br></br>
 						<br></br>
 						<FontAwesomeIcon icon={faHandshakeAngle} />
-						Software Engineering Manager
+						<span> Software Engineering Manager</span>
 						<br></br>
 						<FontAwesomeIcon icon={faLayerGroup} />
-						Full Stack Web Developer
+						<span> Full Stack Web Developer</span>
 						<br></br>
 						<br></br>
 						<FontAwesomeIcon icon={faJedi} />
-						<i>Do, or do not, there is no try.</i>
+						<span> Do, or do not, there is no try.</span>
 					</p>
+					{/* Buttons section */}
 					<div className='profile-text'>
 						<a
-							className='btn btn-outline-success'
+							className='btn btn-outline-success m-3'
 							href='#Skills'
 							role='button'
 							onClick={() => setContactSelected(false)}>
 							<FontAwesomeIcon icon={faMandalorian} />
-							Hire me
+							<span className='btn-outline-success'> Hire me</span>
 						</a>
 						<a
 							className='btn btn-outline-success'
@@ -47,10 +49,11 @@ function About(props) {
 							role='button'
 							onClick={() => setSkillsSelected(false)}>
 							<FontAwesomeIcon icon={faFile} />
-							Resume.pdf
+							<span className='btn-outline-success'> Resume.pdf</span>
 						</a>
 					</div>
 				</div>
+				{/* Profile image section */}
 				<div className='col-4 mt-2'>
 					<img
 						src={profileImage}

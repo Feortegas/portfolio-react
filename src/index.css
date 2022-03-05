@@ -9,7 +9,24 @@
   text-decoration: none;
 }
 
+.my-name {
+  color: #00cba9;
+  font-size: xx-large;
+}
+
+nav, main {
+  padding: 100px 100px;
+}
+
 /* nav bar */
+.navbar-brand span {
+  font-size: 40px;
+}
+
+nav ul li {
+  font-size: 24px;
+}
+
 nav ul li:hover {
   cursor: pointer;
 }
@@ -22,14 +39,7 @@ nav ul li:hover {
 .profile-text {
 	text-align: center;
 	align-items: center;
-}
-
-.profile-text a {
-  text-align: center;
-}
-
-.section-break {
-	margin-top: 100px;
+  font-size:larger;
 }
 
 /* footer section */
@@ -37,8 +47,8 @@ nav ul li:hover {
   /* background-image: url(./assets/footer/wave.svg); */
   /* background-repeat: no-repeat; */
   /* background-position: bottom; */
-  min-height: 1000px;
-  max-height: 2000px;
+  /* min-height: 300px; */
+  max-height: 500px;
   align-items: flex-end;
   text-align: center;
   min-width: 100%;

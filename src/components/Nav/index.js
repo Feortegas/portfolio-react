@@ -36,7 +36,7 @@ function Nav(props) {
 		<nav className='navbar navbar-expand-lg'>
 			<div className='container-fluid'>
 				<a className='navbar-brand' href='/'>
-					<span>Fernando Ortega</span>
+					<span className='my-name'>Fernando Ortega</span>
 				</a>
 			</div>
 			<div className='collapse navbar-collapse'>
