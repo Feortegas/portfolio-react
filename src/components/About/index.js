@@ -14,8 +14,8 @@ function About(props) {
 	const { setContactSelected, setSkillsSelected } = props;
 
 	return (
-		<section className='pt-5 container-fluid h-100'>
-			<div className='row h-100'>
+		<section className='pt-5 container-fluid'>
+			<div className='row'>
 				<div className='col-8 mt-2 '>
 					<p className='profile-text'>
 						Hello, I'm Fernando

@@ -9,7 +9,7 @@ main, nav, footer {
 }
 
 main {
-  height: 700px;
+  height: 650px;
 }
 
 /* .profile-blob {
@@ -45,7 +45,6 @@ nav ul li:hover {
 
 .hire-me-btn {
   background-color: #00cba9;
-  color: white;
   text-align: center;
 }
 
@@ -63,11 +62,12 @@ nav ul li:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
+  align-items:flex-end;
+  text-align:center;
 }
 
 .footer-text {
   background-color: transparent;
-  color: white;
   text-align: center;
 }
 

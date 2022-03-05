@@ -10,7 +10,7 @@ import {
 
 function Footer() {
 	return (
-		<div className='text-muted footer-bg'>
+		<div className='row d-flex footer-bg pb-4'>
 			<div className='footer-text'>
 				<span>Get connected with me on social networks</span>
 				<div className='icons'>
