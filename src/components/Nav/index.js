@@ -42,22 +42,22 @@ function Nav(props) {
 			<div className='collapse navbar-collapse'>
 				<ul className='navbar-nav ms-auto align-items-center'>
 					<li
-						className={`nav-item me-4 ${aboutSelected}`}
+						className={`nav-item me-4 ${aboutSelected && 'nav-active'}`}
 						onClick={(event) => resetStates(event)}>
 						About
 					</li>
 					<li
-						className={`nav-item me-4 ${skillsSelected}`}
+						className={`nav-item me-4 ${skillsSelected && 'nav-active'}`}
 						onClick={(event) => resetStates(event)}>
 						Skills
 					</li>
 					<li
-						className={`nav-item me-4 ${projectsSelected}`}
+						className={`nav-item me-4 ${projectsSelected && 'nav-active'}`}
 						onClick={(event) => resetStates(event)}>
 						Projects
 					</li>
 					<li
-						className={`nav-item me-4 ${contactSelected}`}
+						className={`nav-item me-4 ${contactSelected} && 'nav-active'`}
 						onClick={(event) => resetStates(event)}>
 						Contact
 					</li>

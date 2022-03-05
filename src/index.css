@@ -65,3 +65,33 @@ nav ul li:hover {
 .footer-icons {
 	font-size: x-large;
 }
+
+.nav-active {
+  color:#00cba9;
+}
+
+/* Skills section */
+.skills-container {
+  align-items: center;
+}
+.skills-blob {
+  /* position:absolute; */
+  display: flex;
+  opacity: 0.5;
+  top: 200px;
+  left: 30px;
+}
+
+.skills-title {
+  align-items: center;
+}
+
+.skills-title h3 {
+  color:#00cba9;
+}
+
+.skills-icon {
+  color:#00cba9;
+  font-size: xx-large;
+  margin-right: 10px;
+}
