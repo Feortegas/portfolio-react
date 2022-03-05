@@ -1,8 +1,15 @@
 * {
-	background-color: #1e2124;
-	/* color: #92cccd; */
   color: white;
-	/* text-decoration: none; */
+}
+
+main, nav, footer {
+	background-color: #1e2124;
+	color: white;
+	text-decoration: none;
+}
+
+main {
+  height: 700px;
 }
 
 /* .profile-blob {
@@ -21,24 +28,49 @@
 	z-index: 2;
 } */
 
+/* nav bar */
+nav ul li:hover {
+  cursor: pointer;
+}
+
+/* about me section */
 .profile-image {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .profile-text {
+	text-align: center;
+	align-items: center;
+}
+
+.hire-me-btn {
+  background-color: #00cba9;
+  color: white;
   text-align: center;
-  align-items: center;
-  
+}
+
+.profile-text a {
+  text-align: center;
 }
 
 .section-break {
-  margin-top: 100px;
+	margin-top: 100px;
+}
+
+/* footer section */
+.footer-bg {
+  background-image: url(./assets/footer/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.footer-text {
+  background-color: transparent;
+  color: white;
+  text-align: center;
 }
 
 .icons {
-  color: #00cba9;
-}
-
-nav ul li:hover {
-  cursor: pointer;
+	font-size: x-large;
 }

@@ -1,10 +1,56 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import profileImage from '../../assets/profile/profile-img-filled.png';
+import resume from '../../assets/profile/Resume.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faHandshakeAngle,
+	faLayerGroup,
+	faJedi,
+	faFile,
+} from '@fortawesome/free-solid-svg-icons';
+import { faMandalorian } from '@fortawesome/free-brands-svg-icons';
 
-function About() {
+function About(props) {
+	const { setContactSelected, setSkillsSelected } = props;
+
 	return (
-		<section className='my-5 container-fluid h-100'>
+		<section className='pt-5 container-fluid h-100'>
 			<div className='row h-100'>
+				<div className='col-8 mt-2 '>
+					<p className='profile-text'>
+						Hello, I'm Fernando
+						<br></br>
+						<br></br>
+						<FontAwesomeIcon icon={faHandshakeAngle} />
+						Software Engineering Manager
+						<br></br>
+						<FontAwesomeIcon icon={faLayerGroup} />
+						Full Stack Web Developer
+						<br></br>
+						<br></br>
+						<FontAwesomeIcon icon={faJedi} />
+						<i>Do, or do not, there is no try.</i>
+					</p>
+					<div className='profile-text'>
+						<a
+							className='btn btn-outline-success hire-me-btn'
+							href='#Skills'
+							role='button'
+							onClick={() => setContactSelected(false)}>
+							<FontAwesomeIcon icon={faMandalorian} />
+							Hire me
+						</a>
+						<a
+							className='btn btn-outline-success hire-me-btn'
+							href={resume}
+							download='Fernando Ortega resume.pdf'
+							role='button'
+							onClick={() => setSkillsSelected(false)}>
+							<FontAwesomeIcon icon={faFile} />
+							Resume.pdf
+						</a>
+					</div>
+				</div>
 				<div className='col-4 mt-2'>
 					{/* <svg
 						className='profile-blob'
@@ -19,28 +65,18 @@ function About() {
 					{/* <img className='profile-image' src={profileImage} alt='my profile' /> */}
 					<img
 						src={profileImage}
-						className='rounded-circle mx-auto'
+						className='rounded-circle mx-auto profile-image'
 						alt='this is me'
-						style={{ height: 300, width: 300 }}
 					/>
 				</div>
-				<div className='col-8 mt-2'>
-					<p className='profile-text'>
-						Hi, my name is Fernando Ortega. I am a Software Engineer Manager
-						specialized in Industrial Automation, working on the industry for
-						the past 18 years. With the revolution of web applications, I
-						decided to improve my technical skills and become a full stack web
-						developer. This is my Portfolio page. Enjoy it.
-					</p>
-				</div>
 			</div>
-			<div className='section-break'>
+			{/* <div className='section-break'>
 				<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
 					<path
 						fill='#00cba9'
 						d='M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,208C1120,203,1280,117,1360,74.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z'></path>
 				</svg>
-			</div>
+			</div> */}
 		</section>
 	);
 }

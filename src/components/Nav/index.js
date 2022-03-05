@@ -19,12 +19,16 @@ function Nav(props) {
 		setContactSelected(false);
 		if (event.target.textContent === 'About') {
 			setAboutSelected(true);
+			document.title = 'Fernando - About';
 		} else if (event.target.textContent === 'Skills') {
 			setSkillsSelected(true);
+			document.title = 'Fernando - Skills';
 		} else if (event.target.textContent === 'Projects') {
 			setProjectsSelected(true);
+			document.title = 'Fernando - Projects';
 		} else if (event.target.textContent === 'Contact') {
 			setContactSelected(true);
+			document.title = 'Fernando - Contact';
 		}
 	}
 
