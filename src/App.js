@@ -4,7 +4,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 import Error from './components/Error';
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 				) : projectsSelected ? (
 					<Projects />
 				) : contactSelected ? (
-					<Contact />
+					<ContactForm />
 				) : (
 					<Error />
 				)}
