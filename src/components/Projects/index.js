@@ -21,7 +21,7 @@ function Projects() {
 							/>
 						</a>
 						<div>
-							<h3>reddit-light website</h3>
+							<h3>reddit-lite website</h3>
 							<p>
 								Light version of reddit.com. Focus of the application is for the
 								user that is not a die-hard reddit user to be able to focus on

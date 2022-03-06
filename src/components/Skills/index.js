@@ -38,6 +38,7 @@ function Skills() {
 						<li>JavaScript</li>
 						<li>Node.js</li>
 						<li>Express.js</li>
+						<li>CRUD operations</li>
 						<li>NoSQL - MongoDB</li>
 						<li>MySQL - ORM</li>
 						<li>PWA</li>

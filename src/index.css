@@ -1,5 +1,6 @@
 * {
   color: white;
+  
 }
 
 #root {
@@ -49,17 +50,21 @@ nav ul li:hover {
   /* background-position: bottom; */
   /* min-height: 300px; */
   max-height: 500px;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   text-align: center;
   min-width: 100%;
   position: absolute;
   bottom: 0;
+  /* left: 1.5rem; */
+  --bs-gutter-x: 0 !important;
+  /* flex-wrap: wrap;  */
 }
 
 .footer-text {
   background-color: transparent;
   position: absolute;
   bottom: 20px;
+  padding: 0 !important;
 }
 
 .footer-icons {
