@@ -7,15 +7,13 @@ function Project(props) {
 	const url = props.project.url;
 	return (
 		<div className='col-6'>
-			<a href={url}>
+			<a href={url} target='_blank' rel='noopener noreferrer'>
 				<h5>{name}</h5>
 			</a>
 			<img
 				className='project-image'
 				src={require(`../../assets/projects/${image}`)}
 				alt={name}
-				target='_blank'
-				rel='noopener noreferrer'
 			/>
 			<p>{description}</p>
 		</div>
