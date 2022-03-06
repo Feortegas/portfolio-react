@@ -1,35 +1,35 @@
 * {
-  color: white;
-  
+	color: white;
 }
 
 #root {
-  background-color: #1e2124;
-  min-height: 100vh;
-  position: relative;
-  text-decoration: none;
+	background-color: #1e2124;
+	min-height: 100vh;
+	position: relative;
+	text-decoration: none;
 }
 
 .my-name {
-  color: #00cba9;
-  font-size: xx-large;
+	color: #00cba9;
+	font-size: xx-large;
 }
 
-nav, main {
-  padding: 100px 100px;
+nav,
+main {
+	padding: 100px 100px;
 }
 
 /* nav bar */
 .navbar-brand span {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 nav ul li {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 nav ul li:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /* about me section */
@@ -40,31 +40,23 @@ nav ul li:hover {
 .profile-text {
 	text-align: center;
 	align-items: center;
-  font-size:larger;
+	font-size: larger;
 }
 
 /* footer section */
 .footer {
-  /* background-image: url(./assets/footer/wave.svg); */
-  /* background-repeat: no-repeat; */
-  /* background-position: bottom; */
-  /* min-height: 300px; */
-  max-height: 500px;
-  /* align-items: flex-end; */
-  text-align: center;
-  min-width: 100%;
-  position: absolute;
-  bottom: 0;
-  /* left: 1.5rem; */
-  --bs-gutter-x: 0 !important;
-  /* flex-wrap: wrap;  */
+	max-height: 500px;
+	text-align: center;
+	min-width: 100%;
+	position: absolute;
+	bottom: 0;
+	/* bootstrap adds --bs-gutter-x padding of 1.5rem when using .row class */
+	--bs-gutter-x: 0 !important;
 }
 
 .footer-text {
-  background-color: transparent;
-  position: absolute;
-  bottom: 20px;
-  padding: 0 !important;
+	position: absolute;
+	bottom: 20px;
 }
 
 .footer-icons {
@@ -72,31 +64,32 @@ nav ul li:hover {
 }
 
 .nav-active {
-  color:#00cba9;
+	color: #00cba9;
 }
 
 /* Skills section */
 .skills-container {
-  align-items: center;
+	align-items: center;
 }
+
 .skills-blob {
-  /* position:absolute; */
-  display: flex;
-  opacity: 0.5;
-  top: 200px;
-  left: 30px;
+	/* position:absolute; */
+	display: flex;
+	opacity: 0.5;
+	top: 200px;
+	left: 30px;
 }
 
 .skills-title {
-  align-items: center;
+	align-items: center;
 }
 
 .skills-title h3 {
-  color:#00cba9;
+	color: #00cba9;
 }
 
 .skills-icon {
-  color:#00cba9;
-  font-size: xx-large;
-  margin-right: 10px;
+	color: #00cba9;
+	font-size: xx-large;
+	margin-right: 10px;
 }
