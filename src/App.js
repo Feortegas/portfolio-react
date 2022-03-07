@@ -25,7 +25,7 @@ function App() {
 				contactSelected={contactSelected}
 				setContactSelected={setContactSelected}
 			/>
-			<main>
+			<main className='main'>
 				{aboutSelected ? (
 					<About />
 				) : skillsSelected ? (

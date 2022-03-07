@@ -7,44 +7,54 @@ function Projects() {
 			image: 'reddit-lite.png',
 			name: 'reddit-lite',
 			description:
-				'Light version of reddit.com. Focus of the application is for the user that is not a die-hard reddit user to be able to focus on the posts and comments only. It also benefits communities where internet connection speed is not as fast as in rich countries.',
+				'Light version of reddit.com.',
 			url: 'https://afternoon-tundra-62298.herokuapp.com/',
+			github: 'https://github.com/Feortegas/reddit-clone',
 		},
 		{
 			image: 'spotitube.png',
 			name: 'SpotiTube',
 			description:
-				'SpotiTube web app, allows the user to Search for a Spotify playlist and then insert the tracks to a YouTube playlist (Official videos). Its a colaboration between the Spotify API and YouTube API.',
+				'Insert Spotify playlist into a YouTube playlist.',
 			url: 'https://feortegas.github.io/SpotiTube/',
+			github: 'https://github.com/Feortegas/SpotiTube',
 		},
 		{
 			image: 'run-buddy.jpg',
 			name: 'Run-Buddy',
-			description: 'Run buddy is your portal to connect to your personal trainner and become the journey of getting fit',
+			description:
+				'Run buddy is your portal to connect to your personal trainner.',
 			url: 'https://feortegas.github.io/run-buddy/',
+			github: 'https://github.com/Feortegas/run-buddy',
 		},
 		{
 			image: 'city-weather-dashboard.png',
 			name: 'City Weather Dashboard',
-			description: 'Search for the current weather for your local city or future destination. Get also 5 days	Forecast',
+			description:
+				'Current weather for your local city or future destination.',
 			url: 'https://feortegas.github.io/city-weather-dashboard/',
+			github: 'https://github.com/Feortegas/city-weather-dashboard',
 		},
 		{
 			image: 'code-quiz.png',
 			name: 'Classic Action Movies Quiz',
-			description: 'Enjoy a short Classic Action Movies Quiz. Think fast or you will run out of time!',
+			description:
+				'Enjoy a short Classic Action Movies Quiz.',
 			url: 'https://feortegas.github.io/code-quiz-classic-movies/',
+			github: 'https://github.com/Feortegas/code-quiz-classic-movies',
 		},
 		{
 			image: 'work-day-scheduller.png',
 			name: 'Work day scheduller',
-			description: `Plan your day appointments and to-do's with this Day Scheduller web app`,
+			description: `Plan your day appointments and to-do's.`,
 			url: 'https://feortegas.github.io/whats-up-today/',
+			github: 'https://github.com/Feortegas/whats-up-today',
 		},
 	];
 
 	return (
-		<section className='row d-flex'>
+		<section className='projects row g-4'>
+			<h1>My Projects</h1>
 			{projectArr.map((eachProject) => {
 				return <Project project={eachProject} />;
 			})}

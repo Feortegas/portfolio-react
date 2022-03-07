@@ -39,7 +39,7 @@ function Nav(props) {
 					<span className='my-name'>Fernando Ortega</span>
 				</a>
 			</div>
-			<div className='collapse navbar-collapse'>
+			<div>
 				<ul className='navbar-nav ms-auto align-items-center'>
 					<li
 						className={`nav-item me-4 ${aboutSelected && 'nav-active'}`}
