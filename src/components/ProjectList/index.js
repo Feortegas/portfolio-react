@@ -9,8 +9,8 @@ function Project(props) {
 	const url = props.project.url;
 	const github = props.project.github;
 	return (
-		<div className='col-12 col-md-6 col-lg-4 card-group'>
-			<div key={name} className='card project-cards'>
+		// <div className='col-12 col-md-6 col-lg-4 card-group'>
+			<div className='card project-cards'>
 				<img
 					className='card-img-top'
 					src={require(`../../assets/projects/${image}`)}
@@ -36,7 +36,7 @@ function Project(props) {
 					</div>
 				</div>
 			</div>
-		</div>
+		// </div>
 	);
 }
 
