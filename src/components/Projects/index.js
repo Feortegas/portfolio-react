@@ -18,12 +18,12 @@ function Projects() {
 			github: 'https://github.com/Feortegas/SpotiTube',
 		},
 		{
-			image: 'run-buddy.jpg',
-			name: 'Run-Buddy',
+			image: 'OnTrack.png',
+			name: 'OnTrack',
 			description:
-				'Run buddy is your portal to connect to your personal trainner.',
-			url: 'https://feortegas.github.io/run-buddy/',
-			github: 'https://github.com/Feortegas/run-buddy',
+				'Agile Development tool for GitHub Issues.',
+			url: 'https://group2-ontrack.herokuapp.com',
+			github: 'https://github.com/Feortegas/OnTrack',
 		},
 		{
 			image: 'city-weather-dashboard.png',

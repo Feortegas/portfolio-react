@@ -137,6 +137,8 @@ main {
 	/* margin: 0 50px; */
 	display: block;
 	flex-wrap: wrap;
+	background-image: url(./assets/contact/undraw_contact_us_re_4qqt.svg);
+	background-repeat: no-repeat;
 }
 
 .contact h1 {
